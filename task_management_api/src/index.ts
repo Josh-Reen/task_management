@@ -20,7 +20,8 @@ sequelize.sync().then(() => {
   app.listen(config.port as any, '0.0.0.0', () => {
     logger.info(`Server is running on 0.0.0.0:${config.port}`);
   });
-  
+ 
+// Error throw about the database connectivity
 }).catch((error) => {
   logger.error('Unable to connect to the database:', error);
 });
