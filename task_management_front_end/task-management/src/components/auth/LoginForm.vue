@@ -58,7 +58,7 @@
       await login(form)
       
     } catch (err) {
-      error.value = err instanceof Error ? err.message : 'Login failed'
+      error.value = err instanceof Error ? err.message : 'Login faild'
     } finally {
       loading.value = false
     }

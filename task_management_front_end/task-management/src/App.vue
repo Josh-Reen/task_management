@@ -7,7 +7,7 @@
     
     <div v-else class="tasks-container">
       <header class="header">
-        <h2>My Tasks ({{ user?.username || 'Guest' }})</h2>
+        <h2>My Tsks ({{ user?.username || 'Guest' }})</h2>
         <button @click="handleLogout" class="logout-btn">Logout</button>
       </header>
 
