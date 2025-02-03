@@ -506,5 +506,3 @@ If you encounter issues:
 5. Create a Pull Request
 
 ## License
-
-[Add your license information here]
